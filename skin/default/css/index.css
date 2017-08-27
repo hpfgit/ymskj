@@ -1,0 +1,362 @@
+@charset "utf-8";
+.totop {
+    width: 46px;
+    height: 21px;
+    background-image: url(../images/gotop.gif);
+    background-repeat: no-repeat;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+}
+
+.header-top {
+    background-color: #4fc17d;
+}
+
+.top {
+    height: 37px;
+    line-height: 37px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.top a {
+    color: #fff;
+}
+
+.nav {
+    width: 816px;
+    margin-left: 32px;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    width: 102px;
+    height: 92px;
+    border-right: 1px double #c7c7c7;
+}
+
+.nav li a {
+    color: #000;
+    display: inline-block;
+}
+
+.nav li:hover {
+    background-color: #4fc17d;
+}
+
+.nav li:hover a {
+    color: #fff;
+}
+
+.banner {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 450px;
+}
+
+.banner-ul li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.banner-title {
+    width: 1000px;
+    height: 65px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    color: #fff;
+    line-height: 65px;
+}
+
+.banner-title p {
+    width: 240px;
+    text-align: center;
+}
+
+.arrow1,
+.arrow2 {
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 50px;
+    margin: 7px auto 0;
+    cursor: pointer;
+}
+
+.arrow1 {
+    background-image: url(../images/arrow1.png);
+    margin-right: 10px;
+}
+
+.arrow2 {
+    background-image: url(../images/arrow2.png);
+    margin-left: 10px;
+}
+
+.thumb {
+    margin: 7px auto 0;
+}
+
+.thumb img {
+    width: 90px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+.thumb li {
+    margin-left: 10px;
+}
+
+.thumb li:first-child {
+    margin: 0px;
+}
+
+.thumb li:hover img {
+    border: 2px solid darkorange !important;
+}
+
+.thumb li {
+    float: left;
+    cursor: pointer;
+}
+
+.sec-item {
+    width: 23.5%;
+    margin: 0 0 0 2%;
+}
+
+.sec-item:nth-of-type(1) {
+    margin: 0 0 0 0;
+}
+
+.about {
+    background-color: #f1f2f2;
+    padding: 10px;
+    height: 217px;
+}
+
+.about p,
+.about a,
+.about span {
+    color: #676767;
+    font-size: 12px;
+}
+
+.news {
+    padding: 10px;
+}
+
+.news a:hover {
+    color: #ff0000;
+}
+
+.news li {
+    line-height: 28px;
+}
+
+.spot {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+}
+
+.sec-item-title {
+    height: 47px;
+    line-height: 47px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.more {
+    font-family: '宋体';
+    font-size: 12px;
+    color: #0283df;
+}
+
+.contact {
+    line-height: 36px;
+    background-image: url(../images/yms_19.jpg);
+    background-repeat: no-repeat;
+    background-position: 130px 120px;
+    padding: 10px 10px 25px 10px;
+}
+
+.porduct span {
+    display: inline-block;
+}
+
+.line,
+.line2 {
+    width: 382px;
+    background-color: #ccc;
+    height: 1px;
+    vertical-align: middle;
+}
+
+.product-p {
+    width: 113px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+
+.product-list {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 180px;
+    margin-left: -10px;
+}
+
+.product-list li {
+    float: left;
+    width: 230px;
+    height: 180px;
+    margin: 0 0 0 20px;
+}
+
+.product-list li img {
+    width: 230px;
+    height: 180px;
+}
+
+.product-box {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #4fc17d;
+}
+
+.link li {
+    float: left;
+    width: 230px;
+    margin: 5px 0 5px 20px;
+}
+
+.link li:nth-last-of-type(4n+1) {
+    margin: 5px 0 5px 0;
+}
+
+.link-title {
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+
+.foot {
+    margin: 20px auto 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+
+.foot a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.about-list a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background-color: #f1f2f2;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.about-list a:hover {
+    background-color: #fff;
+    padding-left: 35px;
+}
+
+.about-right {
+    width: 790px;
+    margin-left: 20px;
+}
+
+.about-right-title {
+    height: 47px;
+    line-height: 47px;
+    background-image: url(../images/ny.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 40px;
+}
+
+.about-content {
+    font-size: 12px;
+    line-height: 28px;
+    color: #676767;
+    padding-top: 20px;
+}
+
+.news-list {
+    font-size: 12px;
+}
+
+.news-list .spot {
+    margin-left: 10px;
+}
+
+.news-list a {
+    color: #000;
+}
+
+.news-list li {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px double #999;
+}
+
+.news-list span {
+    display: inline-block;
+}
+
+.news-list .date {
+    float: right;
+    color: #676767;
+}
+
+.porduct {
+    margin-bottom: 20px;
+}
+
+.products-list li {
+    float: left;
+    width: 180px;
+    margin: 10px 0 10px 21px;
+    text-align: center;
+}
+
+.products-list li>a {
+    display: block;
+    width: 180px;
+    height: 160px;
+    border: 1px solid #ccc;
+}
+
+.products-list p {
+    margin: 10px auto 0;
+    font-size: 12px;
+}
+
+.products-list img {
+    width: 160px;
+    height: 140px;
+    margin: 10px auto 0;
+}
+
+.products-list li:nth-of-type(4n+1) {
+    margin: 10px 0 10px 0px;
+}

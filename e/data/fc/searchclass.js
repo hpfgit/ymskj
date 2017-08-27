@@ -1,0 +1,1 @@
+document.write("<option value=\'1\'>|-团队风采</option><option value=\'2\'>|-资质荣誉</option><option value=\'3\'>|-视频展厅</option>");
