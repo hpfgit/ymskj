@@ -27,49 +27,49 @@ if(!defined('InEmpireCMS'))
         <img src="[!--news.url--]skin/default/images/logo.png" alt="伊美时国际医药科技（北京）有限公司" class="left">
         <ul class="nav left">
             <li>
-                <a href="#">
+                <a href="[!--news.url--]" title="伊美时国际医药科技（北京）有限公司">
                     <p>网站首页</p>
                     <p>Home</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]about.html">
                     <p>关于我们</p>
                     <p>About us</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]xinwenzhongxin/">
                     <p>新闻中心</p>
                     <p>News</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]chanpinzhongxin/">
                     <p>产品中心</p>
                     <p>Products</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]jiankangzixun/">
                     <p>健康资讯</p>
                     <p>Healthy</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]pinpailiansuo/">
                     <p>品牌连锁</p>
                     <p>Brand chain</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]huiyuanzhongxin/">
                     <p>会员中心</p>
                     <p>VIP</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="[!--news.url--]contact.html">
                     <p>联系我们</p>
                     <p>Contact us</p>
                 </a>
@@ -133,6 +133,9 @@ if(!defined('InEmpireCMS'))
             <div class="totop right"></div>
         </div>
     </section>
+    <ul class="index">
+        <li></li>
+    </ul>
     <div class="footer">
         <div class="link center clearfix">
            <div class="link-title">友情链接：</div>

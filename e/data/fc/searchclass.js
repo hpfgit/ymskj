@@ -1,1 +1,1 @@
-document.write("<option value=\'1\'>|-团队风采</option><option value=\'2\'>|-资质荣誉</option><option value=\'3\'>|-视频展厅</option>");
+document.write("<option value=\'1\'>|-团队风采</option><option value=\'2\'>|-资质荣誉</option><option value=\'3\'>|-视频展厅</option><option value=\'4\'>|-新闻中心</option><option value=\'5\'>|-产品中心</option><option value=\'6\'>|-健康资讯</option><option value=\'7\'>|-品牌连锁</option><option value=\'8\'>|-会员中心</option>");

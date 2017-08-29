@@ -1,13 +1,18 @@
-<!DOCTYPE html>
+<?php
+if(!defined('InEmpireCMS'))
+{
+	exit();
+}
+?><!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>公司简介</title>
+<title>[!--pagetitle--]</title>
 <meta name="keywords" content="[!--pagekey--]" />
 <meta name="description" content="[!--pagedes--]" />
-<link href="/skin/default/css/base.css" rel="stylesheet" type="text/css" />
-<link href="/skin/default/css/index.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/skin/default/js/tabs.js"></script>
+<link href="[!--news.url--]skin/default/css/base.css" rel="stylesheet" type="text/css" />
+<link href="[!--news.url--]skin/default/css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="[!--news.url--]skin/default/js/tabs.js"></script>
 </head>
 <body>
     <header>
@@ -19,52 +24,52 @@
         </section>
     </header>
     <nav class="navbar center clearfix">
-        <img src="/skin/default/images/logo.png" alt="伊美时国际医药科技（北京）有限公司" class="left">
+        <img src="[!--news.url--]skin/default/images/logo.png" alt="伊美时国际医药科技（北京）有限公司" class="left">
         <ul class="nav left">
             <li>
-                <a href="/" title="伊美时国际医药科技（北京）有限公司">
+                <a href="[!--news.url--]" title="伊美时国际医药科技（北京）有限公司">
                     <p>网站首页</p>
                     <p>Home</p>
                 </a>
             </li>
             <li>
-                <a href="/about.html">
+                <a href="[!--news.url--]about.html">
                     <p>关于我们</p>
                     <p>About us</p>
                 </a>
             </li>
             <li>
-                <a href="/xinwenzhongxin/">
+                <a href="[!--news.url--]xinwenzhongxin/">
                     <p>新闻中心</p>
                     <p>News</p>
                 </a>
             </li>
             <li>
-                <a href="/chanpinzhongxin/">
+                <a href="[!--news.url--]chanpinzhongxin/">
                     <p>产品中心</p>
                     <p>Products</p>
                 </a>
             </li>
             <li>
-                <a href="/jiankangzixun/">
+                <a href="[!--news.url--]jiankangzixun/">
                     <p>健康资讯</p>
                     <p>Healthy</p>
                 </a>
             </li>
             <li>
-                <a href="/pinpailiansuo/">
+                <a href="[!--news.url--]pinpailiansuo/">
                     <p>品牌连锁</p>
                     <p>Brand chain</p>
                 </a>
             </li>
             <li>
-                <a href="/huiyuanzhongxin/">
+                <a href="[!--news.url--]huiyuanzhongxin/">
                     <p>会员中心</p>
                     <p>VIP</p>
                 </a>
             </li>
             <li>
-                <a href="/contact.html">
+                <a href="[!--news.url--]contact.html">
                     <p>联系我们</p>
                     <p>Contact us</p>
                 </a>
@@ -73,11 +78,11 @@
     </nav>
     <div class="banner">
         <ul class="banner-ul">
-            <li style="display: block;"><img src="/skin/default/images/01.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-            <li><img src="/skin/default/images/02.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-            <li><img src="/skin/default/images/03.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-            <li><img src="/skin/default/images/04.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-            <li><img src="/skin/default/images/05.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+            <li style="display: block;"><img src="[!--news.url--]skin/default/images/01.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+            <li><img src="[!--news.url--]skin/default/images/02.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+            <li><img src="[!--news.url--]skin/default/images/03.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+            <li><img src="[!--news.url--]skin/default/images/04.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+            <li><img src="[!--news.url--]skin/default/images/05.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
         </ul>
         <div class="banner-p">
             <p>伊美时-羊胎盘</p>
@@ -91,11 +96,11 @@
             <div class="arrow1 left"></div>
             <div class="thumb left">
                 <ul>
-                    <li><img src="/skin/default/images/01.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-                    <li><img src="/skin/default/images/02.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-                    <li><img src="/skin/default/images/03.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-                    <li><img src="/skin/default/images/04.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
-                    <li><img src="/skin/default/images/05.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+                    <li><img src="[!--news.url--]skin/default/images/01.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+                    <li><img src="[!--news.url--]skin/default/images/02.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+                    <li><img src="[!--news.url--]skin/default/images/03.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+                    <li><img src="[!--news.url--]skin/default/images/04.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
+                    <li><img src="[!--news.url--]skin/default/images/05.jpg" alt="伊美时国际医药科技（北京）有限公司"></li>
                 </ul>
             </div>
             <div class="arrow2 left"></div>
@@ -104,34 +109,37 @@
     <section class="center clearfix">
         <div class="sec-item left" style="width: 19%;">
             <div class="sec-item-title">
-                <img src="/skin/default/images/yms_08.jpg" alt="伊美时国际医药科技（北京）有限公司" class="left" style="margin-right: 10px;margin-top: 13px;">
+                <img src="[!--news.url--]skin/default/images/yms_08.jpg" alt="伊美时国际医药科技（北京）有限公司" class="left" style="margin-right: 10px;margin-top: 13px;">
                 <p class="left" style="margin-right: 10px;">关于我们 About us</p>
             </div>
             <div class="about-list">
                 <ul>
-                    <li><a href="/brief.html">公司简介</a></li>
-                    <li><a href="/culture.html">企业文化</a></li>
+                    <li><a href="[!--news.url--]about.html">公司简介</a></li>
+                    <li><a href="[!--news.url--]culture.html">企业文化</a></li>
                     <li><a href="/tuanduifengcai/">团队风采</a></li>
                     <li><a href="/zizhirongyu/">资质荣誉</a></li>
                     <li><a href="/shipinzhanting/">视频展厅</a></li>
                 </ul>
             </div>
-            <img src="/skin/default/images/left.jpg" alt="伊美时国际医药科技（北京）有限公司" style="margin-top: 10px;">
+            <img src="[!--news.url--]skin/default/images/left.jpg" alt="伊美时国际医药科技（北京）有限公司" style="margin-top: 10px;">
         </div>
         <div class="about-right left">
             <div class="about-right-title">
-                <p>公司简介</p>
+                <p>视频展厅</p>
             </div>
-            <div class="about-content">
-                <p>&nbsp;&nbsp; 伊美时国际医药科技（北京）有限公司隶属伊美时集团，伊美时集团是一家以健康产业为龙头，涉足生物技术研发，营养保健品及医疗器械生产、推广、等多个领域的综合型集团公司。其下属子公司有伊美时国际医药科技（北京）有限公司，杨凌伊美时公司，西安百姓堂药业、河北同济生物有限公司、伊美时生活连锁店、等多家子公司。</p>
-<p>&nbsp; &nbsp; 伊美时国际医药科技（北京）有限公司成立于2014年，公司座落在美丽文明的古城邯郸，是一家以健康管理为主导，集日用品、功能性纺织品、保健食品、水处理设备、空气净化设备，生产与销售推广为一体的企业。伊美时国际医药科技（北京）有限公司成立至今，其产品已覆盖全国十余个省份，设有伊美时连锁500余家，拥有高级管理人才2000余名。公司凭借优质的产品，专业的销售团队，保持着持续稳定的发展，其市场影响力快速上升。伊美时健康管理有限公司本着&ldquo;诚信，质量，共赢&rdquo;的企业理念，以诚信为标准，以品质为核心，以市场为导向，打造中国高端养生第一品牌。</p>
-<p>&nbsp; &nbsp; 伊美时国际医药科技（北京）有限公司以传播绿色养生文化为己任，致力于提高生命品质，公司以孝爱的文化管理团队，以孝爱的团队服务市场，以孝爱的事业造福社会。让你我享受真正的健康好生活。</p>
-<p>&nbsp; &nbsp; 电话：400-029-3958 &nbsp;</p>
+            <div class="products-list">
+                <ul class="clearfix">
+                    [!--empirenews.listtemp--]
+                    <!--list.var1--> 
+                    [!--empirenews.listtemp--]
+                </ul>
+                <div class="pages">[!--show.listpage--]</div>
             </div>
             <div class="totop right"></div>
         </div>
     </section>
-    <ul class="indexx">
+    <ul class="index">
+        <li></li>
     </ul>
     <div class="footer">
         <div class="link center clearfix">
@@ -153,7 +161,7 @@
             <p>技术支持：<a href="http://www.chinayuanbo.cn" title="渊博网络">渊博网络</a></p>
         </div>
     </div>
-    <script src="/skin/default/js/jquery.min.js"></script>
-    <script src="/skin/default/js/jquery.js"></script>
+    <script src="[!--news.url--]skin/default/js/jquery.min.js"></script>
+    <script src="[!--news.url--]skin/default/js/jquery.js"></script>
 </body>
 </html>

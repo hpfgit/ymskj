@@ -110,30 +110,36 @@ if(!defined('InEmpireCMS'))
         <div class="sec-item left" style="width: 19%;">
             <div class="sec-item-title">
                 <img src="[!--news.url--]skin/default/images/yms_08.jpg" alt="伊美时国际医药科技（北京）有限公司" class="left" style="margin-right: 10px;margin-top: 13px;">
-                <p class="left" style="margin-right: 10px;">关于我们 About us</p>
+                <p class="left" style="margin-right: 10px;font-size:13px;">品牌连锁 Brand chain</p>
             </div>
             <div class="about-list">
                 <ul>
-                    <li><a href="[!--news.url--]brief.html">公司简介</a></li>
-                    <li><a href="[!--news.url--]culture.html">企业文化</a></li>
-                    <li><a href="/tuanduifengcai/">团队风采</a></li>
-                    <li><a href="/zizhirongyu/">资质荣誉</a></li>
-                    <li><a href="/shipinzhanting/">视频展厅</a></li>
+                    <? @sys_ShowClassByTemp(5,1,0,0);?>
                 </ul>
             </div>
             <img src="[!--news.url--]skin/default/images/left.jpg" alt="伊美时国际医药科技（北京）有限公司" style="margin-top: 10px;">
         </div>
         <div class="about-right left">
             <div class="about-right-title">
-                <p>[!--pagename--]</p>
+                <p>品牌连锁</p>
             </div>
-            <div class="about-content">
-                [!--pagetext--]
+            <div class="products-list">
+                <ul class="clearfix">
+                    [!--empirenews.listtemp--]
+                    <!--list.var1--> 
+                    [!--empirenews.listtemp--]
+                </ul>
+                <div class="pages">[!--show.listpage--]</div>
             </div>
             <div class="totop right"></div>
         </div>
     </section>
-    <ul class="indexx">
+    <ul class="index">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
     <div class="footer">
         <div class="link center clearfix">
