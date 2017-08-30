@@ -115,7 +115,7 @@ document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'
 													<tr>
 														<td><select name="classid" size="8" id="select2" style="width: 100%;height:112px">
 																<option value="0" selected="selected">所有栏目</option>
-															<option value='1' style='background:#99C4E3'>|-团队风采</option><option value='2' style='background:#99C4E3'>|-资质荣誉</option><option value='3' style='background:#99C4E3'>|-视频展厅</option><option value='4' style='background:#99C4E3'>|-新闻中心</option><option value='5' style='background:#99C4E3'>|-产品中心</option><option value='6' style='background:#99C4E3'>|-健康资讯</option><option value='7' style='background:#99C4E3'>|-品牌连锁</option><option value='8' style='background:#99C4E3'>|-会员中心</option>
+															<option value='1' style='background:#99C4E3'>|-团队风采</option><option value='2' style='background:#99C4E3'>|-资质荣誉</option><option value='3' style='background:#99C4E3'>|-视频展厅</option><option value='4'>|-新闻中心</option><option value='9' style='background:#99C4E3'>&nbsp;&nbsp;|-公司新闻</option><option value='10' style='background:#99C4E3'>&nbsp;&nbsp;|-行业新闻</option><option value='11' style='background:#99C4E3'>&nbsp;&nbsp;|-最新公告</option><option value='5'>|-产品中心</option><option value='12' style='background:#99C4E3'>&nbsp;&nbsp;|-保健食品</option><option value='13' style='background:#99C4E3'>&nbsp;&nbsp;|-保健用品</option><option value='14' style='background:#99C4E3'>&nbsp;&nbsp;|-日常用品</option><option value='15' style='background:#99C4E3'>&nbsp;&nbsp;|-医疗机械</option><option value='16' style='background:#99C4E3'>&nbsp;&nbsp;|-净化设备</option><option value='17' style='background:#99C4E3'>&nbsp;&nbsp;|-小赠品</option><option value='18' style='background:#99C4E3'>&nbsp;&nbsp;|-食品</option><option value='6'>|-健康资讯</option><option value='19' style='background:#99C4E3'>&nbsp;&nbsp;|-健康指南</option><option value='7' style='background:#99C4E3'>|-品牌连锁</option><option value='8' style='background:#99C4E3'>|-会员中心</option>
           
 														</select></td>
 													</tr>
@@ -160,18 +160,13 @@ document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'
         <div class="link center clearfix">
            <div class="link-title">友情链接：</div>
             <ul>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
+                [e:loop={'select * from [!db.pre!]enewslink where checked=1 order by lid',20,24,0}]
+                <li><a href="<?=$bqr[lurl]?>"><img src="<?=$bqr[lpic]?>" border="0"/></a></li>
+                [/e:loop]
             </ul>
         </div>
         <div class="foot">
-            <p><a href="">关于伊美时</a> | <a href="">品牌连锁</a> | <a href="">产品中心</a> | <a href="">联系我们</a></p>
+            <p><a href="/about.html" title="伊美时国际医药科技（北京）有限公司">关于伊美时</a> | <a href="/pinpailiansuo/" title="伊美时国际医药科技（北京）有限公司">品牌连锁</a> | <a href="/chanpinzhongxin/" title="伊美时国际医药科技（北京）有限公司">产品中心</a> | <a href="/contact.html" title="伊美时国际医药科技（北京）有限公司">联系我们</a></p>
             <p>版权所有：伊美时国际医药科技（北京）有限公司  电话：400-029-3958  地址：北京市朝阳区北四环东路6号院21号</p>
             <p>技术支持：<a href="http://www.chinayuanbo.cn" title="渊博网络">渊博网络</a></p>
         </div>

@@ -33,43 +33,43 @@ if(!defined('InEmpireCMS'))
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]about.html">
+                <a href="[!--news.url--]about.html" title="伊美时国际医药科技（北京）有限公司">
                     <p>关于我们</p>
                     <p>About us</p>
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]xinwenzhongxin/">
+                <a href="[!--news.url--]xinwenzhongxin/" title="伊美时国际医药科技（北京）有限公司">
                     <p>新闻中心</p>
                     <p>News</p>
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]chanpinzhongxin/">
+                <a href="[!--news.url--]chanpinzhongxin/" title="伊美时国际医药科技（北京）有限公司">
                     <p>产品中心</p>
                     <p>Products</p>
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]jiankangzixun/">
+                <a href="[!--news.url--]jiankangzixun/" title="伊美时国际医药科技（北京）有限公司">
                     <p>健康资讯</p>
                     <p>Healthy</p>
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]pinpailiansuo/">
+                <a href="[!--news.url--]pinpailiansuo/" title="伊美时国际医药科技（北京）有限公司">
                     <p>品牌连锁</p>
                     <p>Brand chain</p>
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]huiyuanzhongxin/">
+                <a href="[!--news.url--]huiyuanzhongxin/" title="伊美时国际医药科技（北京）有限公司">
                     <p>会员中心</p>
                     <p>VIP</p>
                 </a>
             </li>
             <li>
-                <a href="[!--news.url--]contact.html">
+                <a href="[!--news.url--]contact.html" title="伊美时国际医药科技（北京）有限公司">
                     <p>联系我们</p>
                     <p>Contact us</p>
                 </a>
@@ -114,11 +114,11 @@ if(!defined('InEmpireCMS'))
             </div>
             <div class="about-list">
                 <ul>
-                    <li><a href="[!--news.url--]about.html">公司简介</a></li>
-                    <li><a href="[!--news.url--]culture.html">企业文化</a></li>
-                    <li><a href="/tuanduifengcai/">团队风采</a></li>
-                    <li><a href="/zizhirongyu/">资质荣誉</a></li>
-                    <li><a href="/shipinzhanting/">视频展厅</a></li>
+                    <li><a href="[!--news.url--]about.html" title="伊美时国际医药科技（北京）有限公司">公司简介</a></li>
+                    <li><a href="[!--news.url--]culture.html" title="伊美时国际医药科技（北京）有限公司">企业文化</a></li>
+                    <li><a href="/tuanduifengcai/" title="伊美时国际医药科技（北京）有限公司">团队风采</a></li>
+                    <li><a href="/zizhirongyu/" title="伊美时国际医药科技（北京）有限公司">资质荣誉</a></li>
+                    <li><a href="/shipinzhanting/" title="伊美时国际医药科技（北京）有限公司">视频展厅</a></li>
                 </ul>
             </div>
             <img src="[!--news.url--]skin/default/images/left.jpg" alt="伊美时国际医药科技（北京）有限公司" style="margin-top: 10px;">
@@ -141,22 +141,32 @@ if(!defined('InEmpireCMS'))
     <ul class="index">
         <li></li>
     </ul>
+    <ul class="indexx">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
     <div class="footer">
         <div class="link center clearfix">
            <div class="link-title">友情链接：</div>
             <ul>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
-                <li><a href="#"><img src="images/link.jpg" alt=""></a></li>
+                <?php
+$bqno=0;
+$ecms_bq_sql=sys_ReturnEcmsLoopBq('select * from [!db.pre!]enewslink where checked=1 order by lid',20,24,0);
+if($ecms_bq_sql){
+while($bqr=$empire->fetch($ecms_bq_sql)){
+$bqsr=sys_ReturnEcmsLoopStext($bqr);
+$bqno++;
+?>
+                <li><a href="<?=$bqr[lurl]?>"><img src="<?=$bqr[lpic]?>" border="0"/></a></li>
+                <?php
+}
+}
+?>
             </ul>
         </div>
         <div class="foot">
-            <p><a href="">关于伊美时</a> | <a href="">品牌连锁</a> | <a href="">产品中心</a> | <a href="">联系我们</a></p>
+            <p><a href="[!--news.url--]about.html" title="伊美时国际医药科技（北京）有限公司">关于伊美时</a> | <a href="/pinpailiansuo/" title="伊美时国际医药科技（北京）有限公司">品牌连锁</a> | <a href="/chanpinzhongxin/" title="伊美时国际医药科技（北京）有限公司">产品中心</a> | <a href="[!--news.url--]contact.html" title="伊美时国际医药科技（北京）有限公司">联系我们</a></p>
             <p>版权所有：伊美时国际医药科技（北京）有限公司  电话：400-029-3958  地址：北京市朝阳区北四环东路6号院21号</p>
             <p>技术支持：<a href="http://www.chinayuanbo.cn" title="渊博网络">渊博网络</a></p>
         </div>

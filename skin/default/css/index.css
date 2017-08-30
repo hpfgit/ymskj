@@ -53,7 +53,7 @@
     position: relative;
     left: 0px;
     top: 0px;
-    height: 450px;
+    height: 350px;
 }
 
 .banner-ul li {
@@ -252,6 +252,10 @@
     font-size: 18px;
     color: #fff;
     padding: 10px 0 10px 0;
+}
+.link img {
+    width: 200px;
+    height: 50px;
 }
 
 .foot {
