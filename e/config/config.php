@@ -83,7 +83,7 @@ $ecms_config['memberf']['userkey']='userkey';//用户密钥字段
 
 //后台安全设置
 $ecms_config['esafe']['loginauth']='yms';	//登录认证码,如果设置登录需要输入此认证码才能通过
-$ecms_config['esafe']['ecookiernd']='rFPb7NlLrIgF1A49h1OnBvGYBp9CQY';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['esafe']['ecookiernd']='YINKZojdwECrv2fs4IrfInrMTmN78d';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
 $ecms_config['esafe']['ckhloginip']=0;	//后台是否验证登录IP,0为不验证,1为验证
 $ecms_config['esafe']['ckhsession']=0;	//后台是否启用SESSION验证,0为不验证,1为验证
 $ecms_config['esafe']['ckhanytime']=0;	//后台随时认证码变更周期,单位:秒(0为不启用)
@@ -95,10 +95,10 @@ $ecms_config['esafe']['ckhash']=0;	//启用后台来源认证码,0为金刚模�
 //COOKIE设置
 $ecms_config['cks']['ckdomain']='';		//cookie作用域
 $ecms_config['cks']['ckpath']='/';		//cookie作用路径
-$ecms_config['cks']['ckvarpre']='yqfxo';		//前台cookie变量前缀
-$ecms_config['cks']['ckadminvarpre']='htuvt';		//后台cookie变量前缀
-$ecms_config['cks']['ckrnd']='h7xwZSdP7yK8kkcfwGwQt8WgiWZsva';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndtwo']='IcP40pZuUVLGtWEVpWxQ8fAooP83te';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckvarpre']='mqyuk';		//前台cookie变量前缀
+$ecms_config['cks']['ckadminvarpre']='htsld';		//后台cookie变量前缀
+$ecms_config['cks']['ckrnd']='dHAzkPJhpUyeOo5rOUSRUM3MlIZS7Q';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndtwo']='vAy6KHhRyxZDXXt65zpnyPfFcDNmps';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
 
 //网站防火墙配置
 $ecms_config['fw']['eopen']=0;	//开启防火墙(0为关闭,1为开启)
@@ -405,7 +405,7 @@ $emod_r[1]=Array('mid'=>1,
 'qeditdofunf'=>'||',
 'definfovoteid'=>0,
 'orderf'=>'',
-'sonclass'=>'|1|2|3|4|5|6|7|8|',
+'sonclass'=>'|1|2|3|7|8|9|10|11|12|13|14|15|16|17|18|19|',
 'tid'=>1,
 'tbname'=>'news');
 $emod_r[2]=Array('mid'=>2,

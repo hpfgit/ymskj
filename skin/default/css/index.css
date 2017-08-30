@@ -56,6 +56,14 @@
     height: 350px;
 }
 
+.banner-p {
+    display: none;
+}
+
+.banner-ul {
+    height: 350px;
+}
+
 .banner-ul li {
     position: absolute;
     left: 0px;
@@ -330,6 +338,23 @@
 .news-list .date {
     float: right;
     color: #676767;
+}
+
+.news-list,.products-list h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.news-content {
+    margin: 0 20px 20px 20px;
+}
+
+.infopre {
+    margin-top: 50px !important;
+}
+
+.infopre,.infonext {
+    margin: 20px 20px 0 20px;
 }
 
 .porduct {

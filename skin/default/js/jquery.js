@@ -24,6 +24,8 @@ $(".nav li").each(function (index) {
 var timer = null;
 var inum = 0;
 
+$(".banner,.banner-ul").css("height", $(".banner-ul img").height());
+
 banner();
 
 

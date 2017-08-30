@@ -128,7 +128,7 @@ if(!defined('InEmpireCMS'))
                 <div class="news-content">
                     <?=strstr($ecms_gr[newstext],'[!--empirenews.page--]')?'[!--newstext--]':$ecms_gr[newstext]?>
                 </div>
-                <div class="infopre"><?php
+                <div class="infopre"><span class="pre">上一篇：</span><?php
 	$next_r=$empire->fetch1("select isurl,titleurl,classid,id,title from {$dbtbpre}ecms_".$class_r[$ecms_gr[classid]][tbname]." where id<$ecms_gr[id] and classid='$ecms_gr[classid]' order by id desc limit 1");
 	if(empty($next_r[id]))
 	{$infonext="<a href='".$grclassurl."'>返回列表</a>";}
@@ -139,7 +139,7 @@ if(!defined('InEmpireCMS'))
 	}
 	echo $infonext;
 	?></div>
-                <div class="infonext"><?php
+                <div class="infonext"><span class="nex">下一篇：</span><?php
 	$next_r=$empire->fetch1("select isurl,titleurl,classid,id,title from {$dbtbpre}ecms_".$class_r[$ecms_gr[classid]][tbname]." where id>$ecms_gr[id] and classid='$ecms_gr[classid]' order by id limit 1");
 	if(empty($next_r[id]))
 	{$infonext="<a href='".$grclassurl."'>返回列表</a>";}
